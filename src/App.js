@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Vector from './Vector';
+import Board from './Board';
 
-class App extends Component {
+export default class App extends Component {
   render() {
-    return ( <div>{this.props.text}</div> );
+    return ( <Board size={new Vector(20, 30)}/> );
   }
 }
-
-export default App;

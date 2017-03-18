@@ -4,5 +4,5 @@ import App from './App';
 import './index.css';
 
 ReactDOM.render(
-  <App text="test" next="one"/>,  document.getElementById('root')
+  <App />,  document.getElementById('root')
 );
