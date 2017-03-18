@@ -1,3 +1,27 @@
 .Board {
-  text-align: center;
+  display: flex;
+  /* rows flex top-bottom in column */
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  /* cells flex left-right in row */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.cell {
+  width: 35px;
+  height: 35px;
+  background-color: #ccc;
+}
+
+.snake{
+  background-color: #807920;
+}
+
+.fruit {
+  background-color: #ff5605;
 }
