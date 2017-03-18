@@ -5,6 +5,9 @@ import Board from './Board';
 
 export default class App extends Component {
   render() {
-    return ( <Board size={new Vector(20, 30)}/> );
+    return ( <Board
+       size={new Vector(20, 30)}
+       snakePositions={[new Vector(1,2)]}
+       fruitPosition={new Vector(5, 5)} /> );
   }
 }
